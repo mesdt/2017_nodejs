@@ -8,7 +8,7 @@ var express = require('express'),
     mongoose = require('mongoose'),
     // и класс для создания схемы БД
     dbSchema = mongoose.Schema,
-	// наблонизатор...
+	// шаблонизатор...
     swig = require('twig'),
 	// и, собственно, класс приложения
 	app = express();
